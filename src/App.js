@@ -19,7 +19,7 @@ const [status, setStatus] = useState({});
   const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonText("Sending...");
-    let response = await fetch("https://test-3-la5e.onrender.com/api/contact", {
+    let response = await fetch("https://test-3-wjlg.onrender.com/api/contact", {
       method: "POST",
       headers: {
         "Content-Type": "application/json;charset=utf-8"
